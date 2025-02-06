@@ -1,0 +1,16 @@
+﻿<Window x:Class="OopsSec.Warning"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OopsSec"
+        mc:Ignorable="d"
+        Title="You're fine" Height="450" Width="800">
+    <Grid>
+        <WebBrowser x:Name="pageViewer"/>
+        <StackPanel Margin="10">
+            <TextBlock Text="Page couldn't be displayed." FontSize="18" TextWrapping="Wrap"/>
+            <TextBlock Text="Just wanted to let you know that this isn't a virus. There was supposed to be a page explaining all but I guess it didn't load for you lol." FontSize="14" TextWrapping="Wrap"/>
+        </StackPanel>
+    </Grid>
+</Window>
